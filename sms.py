@@ -8,5 +8,4 @@ import sys
 
 report =  sys.argv[1]
 
-message = client.sms.messages.create(to="+16153975338", from_="(415) 599-2671",
-                                     body=report)
+message = client.sms.messages.create(to="+16153975338", from_="(415) 599-2671", body=report)
